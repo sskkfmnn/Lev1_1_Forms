@@ -26,18 +26,22 @@ header div:nth-of-type(4) {
 
 header .vorname{
     width: 20vw;
+    padding: 10px 0 10px 2px;
 }
 
 header .nachname{
     width: 20vw;
+    padding: 10px 0 10px 2px;
 }
 
 header .email{
     width: 40vw;
+    padding: 10px 0 10px 2px;
 }
 
 header .thema{
     width: 40vw;
+    padding: 10px 0 10px 2px;
 }
 
 header .textarea{
@@ -46,5 +50,12 @@ header .textarea{
 
 header .submit{
     width: 40vw;
+    background-color: indianred;
+    color: white;
+    padding: 10px 0 10px 2px;
 }
 
+header .submit:hover{
+    background-color: black;
+    color: white;
+}
